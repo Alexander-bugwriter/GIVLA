@@ -1,5 +1,5 @@
 # GIVLA
-We build upon a modified version of [Evo-1](https://github.com/MINT-SJTU/Evo-1).
+
 ## Enviroment setup
 Create the Conda environment and install the core dependencies (including the Gaussian head dependency):
 ``` bash
