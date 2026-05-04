@@ -54,12 +54,3 @@ data_groups:
 
 
 
-  # This is an example of how to configure the dataset path and view mapping for RoboTwin
-
-  # robotwin_robot:
-  # click_alarmclock_v2.1:
-  #   path: /share/taolin/datasets/robotwin/click_alarmclock_v2.1
-  #   view_map:
-  #     image_1: observation.images.image_1
-  #     image_2: observation.images.image_2
-  #     image_3: observation.images.image_3
