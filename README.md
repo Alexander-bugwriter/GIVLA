@@ -1,4 +1,12 @@
 # GIVLA
+Official repository for **GIVLA**, NeurIPS 2026
+
+## 📋 Release Plan
+We plan to release all resources sequentially after the conference:
+- [x] Make this repository public
+- [x] Release full source code
+- [ ] Release pre-trained model checkpoints
+
 
 ## Enviroment setup
 Create the Conda environment and install the core dependencies (including the Gaussian head dependency):
