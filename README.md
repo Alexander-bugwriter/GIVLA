@@ -5,7 +5,6 @@ Official repository for **GIVLA**, NeurIPS 2026
 We plan to release all resources sequentially after the conference:
 - [x] Make this repository public
 - [x] Release full source code
-- [ ] Release pre-trained model checkpoints
 
 
 ## Enviroment setup
