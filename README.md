@@ -56,34 +56,3 @@ Do you want to enable Mixture-of-Experts training (MoE)? [yes/NO]: no
 
 How many GPU(s) should be used for distributed training? [1]:1      
 ```
-
-## Evaluation
-### LIBERO
-Set up the LIBERO test environment as follows:
-``` bash
-conda create -n libero python=3.8.13 -y
-conda activate libero
-cd LIBERO_Evaluation
-git clone https://github.com/Lifelong-Robot-Learning/LIBERO.git
-cd LIBERO
-pip install -r requirements.txt
-pip install torch==1.11.0+cu113 torchvision==0.12.0+cu113 torchaudio==0.11.0 --extra-index-url https://download.pytorch.org/whl/cu113
-pip install -e .
-pip install websockets
-pip install huggingface_hub
-```
-Then, start the evaluation server in the GIVLA environment:
-
-``` bash
-conda activate GIVLA
-cd GIVLA
-python scripts/GIVLA_server.py
-```
-In a separate terminal, run the LIBERO client:
-``` bash
-conda activate libero
-cd LIBERO_evaluation
-python libero_client_4tasks.py
-```
-### LIBERO-plus
-The test procedure for LIBERO-plus is almost the same. Please install LIBERO-plus instead of the original LIBERO and adjust the environment setup accordingly based on their official instructions.
