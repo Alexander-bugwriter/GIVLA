@@ -5,6 +5,7 @@ Official repository for **GIVLA**, NeurIPS 2026
 We plan to release all resources sequentially after the conference:
 - [x] Make this repository public
 - [x] Release project code
+- [X] Release the model checkpoint 
 
 
 ## Enviroment setup
@@ -85,3 +86,6 @@ conda activate libero
 cd LIBERO_evaluation
 python libero_client_4tasks.py
 ```
+
+## Model_checkpoint
+You can download our pretrained checkpoint from [Alexander-bugwriter/GIVLA](https://huggingface.co/Alexander-bugwriter/GIVLA)
