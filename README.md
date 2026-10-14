@@ -13,11 +13,6 @@ School of Automation and Intelligent Sensing, Shanghai Jiao Tong University<br>
 [**Code**](https://github.com/Alexander-bugwriter/GIVLA) ·
 [**Model checkpoint**](https://huggingface.co/Alexander-bugwriter/GIVLA) ·
 [**Conference page**](https://neurips.cc/virtual/2026/poster/152891)
-
-<img src="assets/figures/overview.png" width="1000" alt="GIVLA framework overview and LIBERO performance versus model size">
-
-**0.9B parameters · 95.90% LIBERO average success · 68.95% LIBERO-plus macro-average success**
-
 </div>
 
 ## Overview
